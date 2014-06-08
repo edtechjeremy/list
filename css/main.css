@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+
+.new {
+  display: block;
+  margin-top: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 400px;
+  font-size:3em;
+}
+
+.list {
+  color:white;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  font-size:3em;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  vertical-align:middle;
+
+}
+
+img {
+  width: 32px;
+  height: 32px;
+}
